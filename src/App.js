@@ -1,5 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./index.css";
+
+/* Figma wireframe -> 
+https://www.figma.com/file/1nxXwpQWoGcgcEtuZ03z9X/calculator?node-id=0%3A1&t=xMu8lHwpXVPGuvdF-0 
+*/
 
 function App() {
 	function updateTotal(e) {}
