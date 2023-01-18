@@ -1,25 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	height: 100vh;
+	background: #f4f4f4;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #1e5631;
-	background-image: linear-gradient(315deg, #68bb59 0%, #1e5631 74%);
-	/* Centers Calculator and background/background color */
 }
 
-/*
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.screen {
+	height: 4rem;
+	margin-bottom: 4rem;
+	background: rgb(138, 66, 138);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
-*/
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+.wrapper {
+	background: #f6f8f9;
+	width: 20rem;
+	padding: 2rem;
+	margin-top: 4rem;
+	border-radius: 1rem;
+	box-shadow: -18px 16px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.button {
 }
