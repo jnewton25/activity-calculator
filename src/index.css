@@ -33,10 +33,16 @@ body {
 .button {
 	align-items: center;
 	background: #333;
+	color: white;
 	border-radius: 50%;
 	display: flex;
 	font-size: 23px;
 	height: 55px;
 	width: 55px;
 	justify-content: center;
+}
+
+.button-function {
+	color: black;
+	background: #a5a5a5;
 }

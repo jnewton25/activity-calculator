@@ -16,6 +16,11 @@ const btnValues = [
 	[0, ".", "="],
 ];
 
+/* Possible way to add class .button-function
+if (btnValues.includes("C")) {
+	btnValues.classList.add("button-function");
+}
+*/
 const App = () => {
 	return (
 		<div>
